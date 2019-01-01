@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,OAAO;EAEH,KAAK,EAAC,KAAK;EAEX,MAAM,EAAC,IAAI;EAEX,aAAa,EAAE,GAAG;EAElB,KAAK,ECJH,OAAO;EDMT,gBAAgB,ECJZ,OAAO;EDMX,WAAW,EAAE,GAAG;EAEhB,SAAS,EAAE,KAAK;;AAIpB,aAAa;EACT,gBAAgB,ECXX,OAAO",
+"sources": ["components/button.scss","variables/colors.scss"],
 "names": [],
 "file": "main.css"
 }
