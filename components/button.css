@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$red".
-        on line 9 of components/button.scss
+        on line 6 of components/button.scss
 
-4:     
-5:     height:50px;
-6:     
-7:     border-radius: 20%;
-8:     
-9:     color: $red;
-10:     
-11:     background-color: $green;
-12:     
-13:     font-weight: 700;
-14:     
+1: .button{
+2:     
+3:     width:15%;
+4:     height:50px;
+5:     border-radius: 1%;
+6:     color: $red;
+7:     background-color: $green;
+8:     font-weight: 700;
+9:     font-size: large;
+10:     margin-left:1%;
+11:     position: reletive;
 
 Backtrace:
-components/button.scss:9
+components/button.scss:6
 /nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 /nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 /nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -65,4 +65,4 @@ components/button.scss:9
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 9 of components/button.scss\A \A 4:     \A 5:     height:50px;\A 6:     \A 7:     border-radius: 20%;\A 8:     \A 9:     color: $red;\A 10:     \A 11:     background-color: $green;\A 12:     \A 13:     font-weight: 700;\A 14:     "; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 6 of components/button.scss\A \A 1: .button{\A 2:     \A 3:     width:15%;\A 4:     height:50px;\A 5:     border-radius: 1%;\A 6:     color: $red;\A 7:     background-color: $green;\A 8:     font-weight: 700;\A 9:     font-size: large;\A 10:     margin-left:1%;\A 11:     position: reletive;"; }

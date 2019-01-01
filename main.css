@@ -1,13 +1,20 @@
 .button {
-  width: 130px;
+  width: 15%;
   height: 50px;
-  border-radius: 20%;
+  border-radius: 1%;
   color: #e84610;
   background-color: #bada55;
   font-weight: 700;
-  font-size: large; }
+  font-size: large;
+  margin-left: 1%;
+  position: reletive;
+  z-index: 2; }
 
 .button:hover {
   background-color: #ffff00; }
+
+.button:active {
+  background-color: #0997d3;
+  color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
