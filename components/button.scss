@@ -1,0 +1,21 @@
+.button{
+    
+    width:130px;
+    
+    height:50px;
+    
+    border-radius: 20%;
+    
+    color: $red;
+    
+    background-color: $green;
+    
+    font-weight: 700;
+    
+    font-size: large;
+
+}
+
+.button:hover{
+    background-color: $yellow;
+}
