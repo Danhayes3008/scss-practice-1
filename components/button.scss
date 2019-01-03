@@ -1,24 +1,25 @@
 .button{
-    
+    float:left;
     width:150px;
-    height:40px;
-    border-radius: 10%;
+    height:60px;
     color: $red;
-    background-color: $green;
+    border:none;
+    background-color: transparent;
     font-weight: 700;
-    font-size: large;
+    font-size: 20px;
     margin-left:1%;
-    position: reletive;
-    z-index: 2;
-    margin-top:10px;
+    display: inline-block;
+    list-style: none;
+    padding-top:15px;
 
 }
 
 .button:hover{
-    background-color: $yellow;
+    background-color: $black;
+    color:$white;
 }
 
 .button:active{
-    background-color:$blue;
-    color:$white;
+    background-color:$white;
+    color:$black;
 }
