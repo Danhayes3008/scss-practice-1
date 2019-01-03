@@ -11,6 +11,10 @@
   display: inline-block;
   list-style: none;
   padding-top: 15px; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .button {
+      width: 100px;
+      font-size: 15px; } }
 
 .button:hover {
   background-color: #000000;
@@ -35,6 +39,10 @@
   position: reletive;
   z-index: 2;
   margin-right: 50px; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .form {
+      width: 220px;
+      margin-right: 20px; } }
 
 body {
   margin: 0; }
