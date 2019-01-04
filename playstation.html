@@ -7,18 +7,25 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="main.css" type="text/css" >
-        <title>Skyrim ps4|game-volt</title>
+        <title>playstation|game-volt</title>
     </head>
     <body>
         <header class="header">
             <nav class="nav">
-                <ul>
-                    <li class="button text-center"><a href="index.html">Home<a/></li>
-                    <li class="button text-center"><a href="playstation.html">PlayStation<a/></li>
-                    <li class="button text-center">x-box</li>
-                    <li class="button text-center">pc</li>
-                    <li class="button text-center">nintendo</li>
-                </ul>
+                <div class="visible-xs col-xs-12">
+                    <button type="button" class="collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse btn" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="button text-center"><a href="index.html">Home<a/></li>
+                        <li class="button text-center"><a href="playstation.html">PlayStation<a/></li>
+                        <li class="button text-center">x-box</li>
+                        <li class="button text-center">pc</li>
+                        <li class="button text-center">nintendo</li>
+                    </ul>
+                </div>
                 <form class="navbar- form" role="search">
                     <div class="input-group">
                       <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
@@ -29,7 +36,9 @@
                 </form>
             </nav>
         </header>
-        <main class="jumbotron text-center"></main>
+        <main class="jumbotron text-center main">
+            <h1>PlayStation</h1>
+        </main>
     </body>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

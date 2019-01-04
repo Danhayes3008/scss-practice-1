@@ -1,9 +1,15 @@
 .form{
     float:right;
-    width:400px;
+    width:350px;
     position:reletive;
     z-index:2;
     margin-right:50px;
+    padding-top:10px;
+    
+    @include mobile{
+        width:180px;
+        margin-right:10px;
+    }
     
     @include tablet{
         width:220px;
