@@ -104,7 +104,9 @@
   margin-top: 5%;
   background-color: transparent;
   color: #ff8000;
-  text-align: center; }
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .main2 {
   border: solid 1px;
@@ -116,6 +118,9 @@
   background-color: transparent;
   color: #ff8000;
   margin-left: 12%; }
+
+.border {
+  border: solid1px #7b7c7b; }
 
 .form {
   float: right;
@@ -151,7 +156,8 @@ a:hover {
 
 .iframe {
   margin-left: 25%;
-  width: 50%; }
+  width: 50%;
+  height: 500px; }
 
 body {
   margin: 0;

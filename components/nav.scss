@@ -53,6 +53,8 @@
     background-color:transparent;
     color:$orange;
     text-align:center;
+    padding-top:0px;
+    padding-bottom:0px;
 }
 
 .main2{
@@ -66,4 +68,8 @@
     background-color:transparent;
     color:$orange;
     margin-left:12%;
+}
+
+.border{
+    border:solid1px$grey;
 }
