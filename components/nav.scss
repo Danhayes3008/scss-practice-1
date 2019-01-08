@@ -70,6 +70,16 @@
     margin-left:12%;
 }
 
-.border{
-    border:solid1px$grey;
+.game{
+    text-align:left;
+    text-decoration:none;
+    border:solid 1px $grey;
+    padding-bottom:5px;
+    padding-top:1px;
+}
+img{
+    float:left;
+    width:100px;
+    height:100px;
+    padding-right:10px;
 }

@@ -119,8 +119,18 @@
   color: #ff8000;
   margin-left: 12%; }
 
-.border {
-  border: solid1px #7b7c7b; }
+.game {
+  text-align: left;
+  text-decoration: none;
+  border: solid 1px #7b7c7b;
+  padding-bottom: 5px;
+  padding-top: 1px; }
+
+img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-right: 10px; }
 
 .form {
   float: right;
