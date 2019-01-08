@@ -11,22 +11,51 @@
     </head>
     <body>
         <header class="header">
-            <nav class="nav">
-                <ul>
-                    <li class="button text-center"><a href="index.html">Home<a/></li>
-                    <li class="button text-center"><a href="playstation.html">PlayStation<a/></li>
-                    <li class="button text-center">x-box</li>
-                    <li class="button text-center">pc</li>
-                    <li class="button text-center">nintendo</li>
-                </ul>
+            <nav class="nav navbar-default">
+                 <div class="visible-xs col-xs-12">
+                    <button type="button" class="navbar-toggle1 collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <form class="navbar- form" role="search">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                          <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="btn navbar-collapse collapse" id="navbar">
+                    <ul>
+                        <li class="button text-center"><a href="index.html">Home<a/></li>
+                        <li class="button text-center"><a href="playstation.html">PlayStation<a/></li>
+                        <li class="button text-center">x-box</li>
+                        <li class="button text-center">pc</li>
+                        <li class="button text-center">nintendo</li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <nav>
+                <div>
+                    <div class="btn navbar-collapse collapse" id="navbar">
+                    <ul>
+                        <li class="button text-center"><a href="index.html">Home<a/></li>
+                        <li class="button text-center"><a href="playstation.html">PlayStation<a/></li>
+                        <li class="button text-center">x-box</li>
+                        <li class="button text-center">pc</li>
+                        <li class="button text-center">nintendo</li>
+                    </ul>
+                </div>
+                </div>
                 <form class="navbar- form" role="search">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-                      <div class="input-group-btn">
-                        <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                      </div>
-                    </div>
-                </form>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                          <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                          </div>
+                        </div>
+                    </form>
             </nav>
         </header>
         <main class="jumbotron text-center"></main>

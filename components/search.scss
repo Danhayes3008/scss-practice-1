@@ -1,7 +1,9 @@
 .form{
     float:right;
     width:350px;
-    position:reletive;
+    position:fixed;
+    top:0;
+    right:-1%;
     z-index:2;
     margin-right:50px;
     padding-top:10px;

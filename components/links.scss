@@ -1,9 +1,22 @@
 a{
     color:$orange;
     text-decoration: none;
+    
+    @include mobile{
+        width:100%;
+    }
 }
 
 a:hover{
     color:$white;
     text-decoration: none;
+    
+    @include mobile{
+        width:100%;
+    }
+}
+
+.iframe{
+    margin-left:25%;
+    width:50%;
 }
